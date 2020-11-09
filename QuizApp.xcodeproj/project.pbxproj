@@ -13,6 +13,9 @@
 		E403F04C25125500004444B6 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403F04B25125500004444B6 /* QuizAppTests.swift */; };
 		E403F059251263F3004444B6 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E403F058251263F3004444B6 /* QuestionViewController.swift */; };
 		E403F05B25126702004444B6 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E403F05A25126702004444B6 /* QuestionViewController.xib */; };
+		E40F98CE2557051700E68644 /* ResultsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F98CD2557051700E68644 /* ResultsViewControllerTest.swift */; };
+		E40F98D42557057E00E68644 /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F98D32557057E00E68644 /* QuestionViewControllerTest.swift */; };
+		E40F98D82557059200E68644 /* TableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F98D72557059200E68644 /* TableViewHelpers.swift */; };
 		E41961C7251F465E0084EBED /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41961C6251F465E0084EBED /* UITableViewExtension.swift */; };
 		E41961C9251F46E90084EBED /* PresentableAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41961C8251F46E90084EBED /* PresentableAnswer.swift */; };
 		E41961CB251F477E0084EBED /* CorrectAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41961CA251F477E0084EBED /* CorrectAnswerCell.swift */; };
@@ -36,8 +39,6 @@
 		E49AEC6D252DAD660098E623 /* QuizEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E49AEC6B252DAD660098E623 /* QuizEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4CE25B5251DF6AB003AAA0F /* CorrectAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CE25B4251DF6AB003AAA0F /* CorrectAnswerCell.xib */; };
 		E4CE25B7251E032E003AAA0F /* WrongAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4CE25B6251E032E003AAA0F /* WrongAnswerCell.xib */; };
-		E4DB45C025540F7F0079B6DB /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB45BF25540F7E0079B6DB /* QuestionViewControllerTest.swift */; };
-		E4DB45C5255411FE0079B6DB /* TableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB45C4255411FD0079B6DB /* TableViewHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,9 @@
 		E403F04D25125500004444B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E403F058251263F3004444B6 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		E403F05A25126702004444B6 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		E40F98CD2557051700E68644 /* ResultsViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewControllerTest.swift; path = "../../../../!archive of quizApp/QuizApp S01E24 TDD 🍅 21 Running the complete Swift Quiz app for the first time 2020-11-03 (with changing arrays into sets (but storyboard still doesn't work)/QuizAppTests/ResultsViewControllerTest.swift"; sourceTree = "<group>"; };
+		E40F98D32557057E00E68644 /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionViewControllerTest.swift; path = "../../../../!archive of quizApp/QuizApp S01E24 TDD 🍅 21 Running the complete Swift Quiz app for the first time 2020-11-03 (with changing arrays into sets (but storyboard still doesn't work)/QuizAppTests/QuestionViewControllerTest.swift"; sourceTree = "<group>"; };
+		E40F98D72557059200E68644 /* TableViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewHelpers.swift; path = "../../../../!archive of quizApp/QuizApp S01E24 TDD 🍅 21 Running the complete Swift Quiz app for the first time 2020-11-03 (with changing arrays into sets (but storyboard still doesn't work)/QuizAppTests/TableViewHelpers.swift"; sourceTree = "<group>"; };
 		E41961C6251F465E0084EBED /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		E41961C8251F46E90084EBED /* PresentableAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentableAnswer.swift; sourceTree = "<group>"; };
 		E41961CA251F477E0084EBED /* CorrectAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectAnswerCell.swift; sourceTree = "<group>"; };
@@ -97,9 +101,6 @@
 		E49AEC6B252DAD660098E623 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CE25B4251DF6AB003AAA0F /* CorrectAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CorrectAnswerCell.xib; sourceTree = "<group>"; };
 		E4CE25B6251E032E003AAA0F /* WrongAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WrongAnswerCell.xib; sourceTree = "<group>"; };
-		E4DB45B42551A8610079B6DB /* ResultsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewControllerTest.swift; sourceTree = "<group>"; };
-		E4DB45BF25540F7E0079B6DB /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuestionViewControllerTest.swift; path = "../../../Documents/Projects/!Actual/!archive of quizApp/QuizApp S01E24 TDD 🍅 21 Running the complete Swift Quiz app for the first time 2020-11-03 (with changing arrays into sets (but storyboard still doesn't work)/QuizAppTests/QuestionViewControllerTest.swift"; sourceTree = "<group>"; };
-		E4DB45C4255411FD0079B6DB /* TableViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewHelpers.swift; path = ../../../Documents/TableViewHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,13 +159,47 @@
 			children = (
 				E4DB45BB2551A9870079B6DB /* Routing */,
 				E4DB45B52551A87B0079B6DB /* Presentation */,
-				E4DB45AD2551A8010079B6DB /* UI */,
+				E40F98CB255704CE00E68644 /* UI */,
 				E4DB45A42551A6D50079B6DB /* Main */,
 				E403F04B25125500004444B6 /* QuizAppTests.swift */,
 				E4617A362531AE0800621962 /* QuestionTest.swift */,
 				E403F04D25125500004444B6 /* Info.plist */,
 			);
 			path = QuizAppTests;
+			sourceTree = "<group>";
+		};
+		E40F98CB255704CE00E68644 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E40F98CC255704DB00E68644 /* Result */,
+				E40F98D12557054700E68644 /* Question */,
+				E40F98D22557055000E68644 /* Helpers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E40F98CC255704DB00E68644 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				E40F98CD2557051700E68644 /* ResultsViewControllerTest.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		E40F98D12557054700E68644 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				E40F98D32557057E00E68644 /* QuestionViewControllerTest.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		E40F98D22557055000E68644 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E40F98D72557059200E68644 /* TableViewHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		E49AEC6A252DAD660098E623 /* Frameworks */ = {
@@ -284,41 +319,6 @@
 				E4617A3F253DE70200621962 /* iOSViewControllerFactoryTest.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		E4DB45AB2551A8010079B6DB /* Result */ = {
-			isa = PBXGroup;
-			children = (
-				E4DB45B42551A8610079B6DB /* ResultsViewControllerTest.swift */,
-			);
-			path = Result;
-			sourceTree = "<group>";
-		};
-		E4DB45AC2551A8010079B6DB /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				E4DB45C4255411FD0079B6DB /* TableViewHelpers.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		E4DB45AD2551A8010079B6DB /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				E4DB45AB2551A8010079B6DB /* Result */,
-				E4DB45AE2551A8010079B6DB /* Question */,
-				E4DB45AC2551A8010079B6DB /* Helpers */,
-			);
-			name = UI;
-			path = ../../../../../.Trash/UI;
-			sourceTree = "<group>";
-		};
-		E4DB45AE2551A8010079B6DB /* Question */ = {
-			isa = PBXGroup;
-			children = (
-				E4DB45BF25540F7E0079B6DB /* QuestionViewControllerTest.swift */,
-			);
-			path = Question;
 			sourceTree = "<group>";
 		};
 		E4DB45B52551A87B0079B6DB /* Presentation */ = {
@@ -491,13 +491,14 @@
 			files = (
 				E4617A372531AE0800621962 /* QuestionTest.swift in Sources */,
 				E4617A40253DE70200621962 /* iOSViewControllerFactoryTest.swift in Sources */,
-				E4DB45C025540F7F0079B6DB /* QuestionViewControllerTest.swift in Sources */,
-				E4DB45C5255411FE0079B6DB /* TableViewHelpers.swift in Sources */,
 				E433B377252DB62400CB8A5F /* NavigationControllerRouterTest.swift in Sources */,
+				E40F98D42557057E00E68644 /* QuestionViewControllerTest.swift in Sources */,
+				E40F98D82557059200E68644 /* TableViewHelpers.swift in Sources */,
 				E403F04C25125500004444B6 /* QuizAppTests.swift in Sources */,
 				E45192A725457C5300EE8B5A /* ResultsPresenterTest.swift in Sources */,
 				E45A6396254A1B5800DEBFDC /* QuestionPresenterTest.swift in Sources */,
 				E45192AA2545800C00EE8B5A /* ResultHelper.swift in Sources */,
+				E40F98CE2557051700E68644 /* ResultsViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
